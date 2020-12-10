@@ -15,7 +15,7 @@ which transfers stereo images through a USB interface.
 
 These tools are used to create this project.
 1. Avnet Ultra96v2
-2. Autocad EAGLE 9.6.2
+2. Autodesk EAGLE 9.6.2
 3. Xilinx Vivado 2020.1
 4. Xilinx Vitis 2020.1
 
