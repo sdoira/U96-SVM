@@ -63,6 +63,8 @@ Refer to "create_vitis_project.pdf" about how to create a Vitis project.
 ## License
 ### Hardware
 The hardware documentation and products included in this repository are licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
+The hardware documentation is contained in the following directory.
+	/eagle/
 
 ### Software
 The software design files included in this repository are available under the MIT license.
