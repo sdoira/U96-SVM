@@ -39,7 +39,7 @@ The sample project supports the following resolution both for USB2.1 and USB3.0.
 
 | USB Ver. | Single Image Resolution | FPS  |
 | :---     | :---                    | :--- |
-| 2.1      | 640 x 480               | 30   |
+| 2.0      | 640 x 480               | 30   |
 | 3.0      | 640 x 480               | 30   |
 
 The left and right images are combined horizontally.
