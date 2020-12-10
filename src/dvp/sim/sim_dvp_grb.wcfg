@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_dvp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_dvp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16263326fs"></ZoomStartTime>
+      <ZoomEndTime time="19865327fs"></ZoomEndTime>
+      <Cursor1Time time="16819326fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wvobject type="divider" fp_name="divider214">
+      <obj_property name="label">AXI Stream Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/v1_tuser" type="logic">
+      <obj_property name="ElementShortName">v1_tuser</obj_property>
+      <obj_property name="ObjectShortName">v1_tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/v1_tvalid" type="logic">
+      <obj_property name="ElementShortName">v1_tvalid</obj_property>
+      <obj_property name="ObjectShortName">v1_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/v1_tdata" type="array">
+      <obj_property name="ElementShortName">v1_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">v1_tdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/v1_tlast" type="logic">
+      <obj_property name="ElementShortName">v1_tlast</obj_property>
+      <obj_property name="ObjectShortName">v1_tlast</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider158">
+      <obj_property name="label">CSI I/F</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/sof" type="logic">
+      <obj_property name="ElementShortName">sof</obj_property>
+      <obj_property name="ObjectShortName">sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/col" type="array">
+      <obj_property name="ElementShortName">col[15:0]</obj_property>
+      <obj_property name="ObjectShortName">col[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/col_r" type="array">
+      <obj_property name="ElementShortName">col_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">col_r[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/row" type="array">
+      <obj_property name="ElementShortName">row[15:0]</obj_property>
+      <obj_property name="ObjectShortName">row[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/row_r" type="array">
+      <obj_property name="ElementShortName">row_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">row_r[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/frm_len" type="array">
+      <obj_property name="ElementShortName">frm_len[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frm_len[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/frm_len_r" type="array">
+      <obj_property name="ElementShortName">frm_len_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frm_len_r[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/frm_cnt" type="array">
+      <obj_property name="ElementShortName">frm_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frm_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn1" type="array">
+      <obj_property name="ElementShortName">ptn1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn2" type="array">
+      <obj_property name="ElementShortName">ptn2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn3" type="array">
+      <obj_property name="ElementShortName">ptn3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4_cnt1" type="array">
+      <obj_property name="ElementShortName">ptn4_cnt1[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn4_cnt1[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4_cnt2" type="array">
+      <obj_property name="ElementShortName">ptn4_cnt2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn4_cnt2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus960" type="vbus">
+      <obj_property name="label">ptn4[15:8]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus969" type="vbus">
+      <obj_property name="label">ptn4[7:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn4[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn5" type="array">
+      <obj_property name="ElementShortName">ptn5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/ptn_sel" type="array">
+      <obj_property name="ElementShortName">ptn_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ptn_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/tvalid_out" type="logic">
+      <obj_property name="ElementShortName">tvalid_out</obj_property>
+      <obj_property name="ObjectShortName">tvalid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/csi_if_l/tdest_out" type="array">
+      <obj_property name="ElementShortName">tdest_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tdest_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider441">
+      <obj_property name="label">Buffer Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/trig" type="logic">
+      <obj_property name="ElementShortName">trig</obj_property>
+      <obj_property name="ObjectShortName">trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/trig_hold" type="logic">
+      <obj_property name="ElementShortName">trig_hold</obj_property>
+      <obj_property name="ObjectShortName">trig_hold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/sof" type="logic">
+      <obj_property name="ElementShortName">sof</obj_property>
+      <obj_property name="ObjectShortName">sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/grb_on" type="logic">
+      <obj_property name="ElementShortName">grb_on</obj_property>
+      <obj_property name="ObjectShortName">grb_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/fifo_wr" type="logic">
+      <obj_property name="ElementShortName">fifo_wr</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/fifo_din" type="array">
+      <obj_property name="ElementShortName">fifo_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/fifo_cnt" type="array">
+      <obj_property name="ElementShortName">fifo_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider163">
+      <obj_property name="label">Buffer Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/fifo_rd" type="logic">
+      <obj_property name="ElementShortName">fifo_rd</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/fifo_dout" type="array">
+      <obj_property name="ElementShortName">fifo_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/data_rdy" type="logic">
+      <obj_property name="ElementShortName">data_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/bst_cnt" type="array">
+      <obj_property name="ElementShortName">bst_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bst_cnt[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/bst_end" type="logic">
+      <obj_property name="ElementShortName">bst_end</obj_property>
+      <obj_property name="ObjectShortName">bst_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/next_col" type="array">
+      <obj_property name="ElementShortName">next_col[10:0]</obj_property>
+      <obj_property name="ObjectShortName">next_col[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/col_cnt" type="array">
+      <obj_property name="ElementShortName">col_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">col_cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/col_end" type="logic">
+      <obj_property name="ElementShortName">col_end</obj_property>
+      <obj_property name="ObjectShortName">col_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/row_cnt" type="array">
+      <obj_property name="ElementShortName">row_cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">row_cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/row_end" type="logic">
+      <obj_property name="ElementShortName">row_end</obj_property>
+      <obj_property name="ObjectShortName">row_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/frm_end" type="logic">
+      <obj_property name="ElementShortName">frm_end</obj_property>
+      <obj_property name="ObjectShortName">frm_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/bank" type="array">
+      <obj_property name="ElementShortName">bank[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bank[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/last_bst" type="logic">
+      <obj_property name="ElementShortName">last_bst</obj_property>
+      <obj_property name="ObjectShortName">last_bst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/cmd_phase" type="logic">
+      <obj_property name="ElementShortName">cmd_phase</obj_property>
+      <obj_property name="ObjectShortName">cmd_phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/addr_phase" type="logic">
+      <obj_property name="ElementShortName">addr_phase</obj_property>
+      <obj_property name="ObjectShortName">addr_phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/data_phase" type="logic">
+      <obj_property name="ElementShortName">data_phase</obj_property>
+      <obj_property name="ObjectShortName">data_phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/addr" type="array">
+      <obj_property name="ElementShortName">addr[30:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/dwr_req" type="logic">
+      <obj_property name="ElementShortName">dwr_req</obj_property>
+      <obj_property name="ObjectShortName">dwr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/dwr_ack" type="logic">
+      <obj_property name="ElementShortName">dwr_ack</obj_property>
+      <obj_property name="ObjectShortName">dwr_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/dwr_vout" type="logic">
+      <obj_property name="ElementShortName">dwr_vout</obj_property>
+      <obj_property name="ObjectShortName">dwr_vout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/grb_l/dwr_dout" type="array">
+      <obj_property name="ElementShortName">dwr_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider161">
+      <obj_property name="label">Interrupt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/axi_if/intr_enb" type="array">
+      <obj_property name="ElementShortName">intr_enb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">intr_enb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/axi_if/intr_sts" type="array">
+      <obj_property name="ElementShortName">intr_sts[31:0]</obj_property>
+      <obj_property name="ObjectShortName">intr_sts[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_dvp/dvp/axi_if/intr" type="logic">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider404">
+   </wvobject>
+</wave_config>
