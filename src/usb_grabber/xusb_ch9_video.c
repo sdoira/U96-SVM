@@ -36,8 +36,8 @@ USB_STD_DEV_DESC __attribute__ ((aligned(16))) deviceDesc[] = {
 		0x02,						// bDeviceSubClass
 		0x01,						// bDeviceProtocol
 		0x40,						// bMaxPackedSize0
-		0xc80a,						// idVendor
-		0x1034,						// idProduct
+		0x1D50,						// idVendor
+		0x60F9,						// idProduct
 		0x0001,						// bcdDevice
 		0x01,						// iManufacturer
 		0x02,						// iProduct
@@ -52,8 +52,8 @@ USB_STD_DEV_DESC __attribute__ ((aligned(16))) deviceDesc[] = {
 		0x02,						// bDeviceSubClass
 		0x01,						// bDeviceProtocol
 		0x09,						// bMaxPackedSize0
-		0xc80b,						// idVendor
-		0x1035,						// idProduct
+		0x1D50,						// idVendor
+		0x60FA,						// idProduct
 		0x0002,						// bcdDevice
 		0x01,						// iManufacturer
 		0x02,						// iProduct
@@ -422,11 +422,11 @@ USB30_CONFIG __attribute__ ((aligned(16))) config3 = {
 static u8 StringList[2][6][128] = {
 	{
 		"Nu-Gate Technology",
-		"USB 2.0 Stereo Vision Front-end U96-SVM",
+		"U96-SVM Stereo Vision Front-end 2.0",
 	},
 	{
 		"Nu-Gate Technology",
-		"USB 3.0 Stereo Vision Front-end U96-SVM",
+		"U96-SVM Stereo Vision Front-end 3.0",
 	}
 };
 

@@ -35,7 +35,7 @@ The assembly service is also possible by enabling the "Include assembly" option 
 
 ## USB Interface
 This device is recognized as USB Video Class (UVC) device when connected to the host PC.
-The sample project supports the following resolution both for USB2.1 and USB3.0.
+The sample project supports the following resolution both for USB2.0 and USB3.0.
 
 | USB Ver. | Single Image Resolution | FPS  |
 | :---     | :---                    | :--- |
@@ -57,7 +57,7 @@ Refer to "create_project_dvp.pdf" and "create_project1.pdf" about how to create 
 ## Vitis Project
 The Vitis project contains a sample application named "usb_grabber".
 This application, when launched, automatically starts DMA transferring of stereo images while waiting for a USB connection.
-Refer to "create_vitis_project.pdf" about how to create a Vitis project.
+Refer to "create_vitis_project.pdf" about how to create the Vitis project.
 
 
 ## License
